@@ -10,10 +10,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg5039"
    version="1.1"
-   viewBox="0 0 3.1749999 4.7625002"
-   height="18"
-   width="12"
-   inkscape:version="0.92.1 r"
+   viewBox="0 0 4.497917 6.3499998"
+   height="23.999998"
+   width="17.000002"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="ice_cream.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -24,23 +24,29 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1337"
-     inkscape:window-height="727"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
      id="namedview5630"
      showgrid="false"
      inkscape:zoom="5.6568543"
-     inkscape:cx="-3.5077614"
-     inkscape:cy="28.241698"
-     inkscape:window-x="37"
-     inkscape:window-y="23"
+     inkscape:cx="-33.712343"
+     inkscape:cy="30.832687"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer15"
-     inkscape:lockguides="false">
+     inkscape:lockguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
        id="grid6175"
        empspacing="0"
-       dotted="true" />
+       dotted="true"
+       originx="5.2916663"
+       originy="0.26458311" />
   </sodipodi:namedview>
   <defs
      id="defs5033" />
@@ -57,13 +63,14 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-292.23748)"
+     transform="translate(5.2916665,-290.91456)"
      id="layer1" />
   <g
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="cone"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(5.2916665,1.3229166)">
     <rect
        style="fill:#ffc33a;fill-opacity:1;stroke-width:0.26458332"
        id="rect10344"
@@ -511,7 +518,8 @@
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="circle"
-     style="display:none">
+     style="display:none"
+     transform="translate(5.2916665,1.3229166)">
     <circle
        style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.28820682"
        id="path11774"
@@ -523,7 +531,8 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="scoop"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(5.2916665,1.3229166)">
     <rect
        style="fill:#f9e7c0;fill-opacity:1;stroke-width:0.26458332"
        id="rect10854"
@@ -1199,7 +1208,7 @@
        x="-2.645833"
        y="2.3812499" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-45-8"
        width="0.26458356"
        height="0.26458299"
@@ -1207,7 +1216,7 @@
        y="-2.9104161"
        transform="scale(1,-1)" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-45-91"
        width="0.26458356"
        height="0.26458299"
@@ -2223,21 +2232,21 @@
        x="-4.2333326"
        y="2.3812499" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-05"
        width="0.26458356"
        height="0.26458299"
        x="-3.4395828"
        y="2.6458333" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-057"
        width="0.26458356"
        height="0.26458299"
        x="-2.6458328"
        y="2.6458333" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-48"
        width="0.26458356"
        height="0.26458299"
@@ -2251,28 +2260,28 @@
        x="-2.1166661"
        y="2.3812499" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-059"
        width="0.26458356"
        height="0.26458299"
        x="-2.6458328"
        y="2.9104166" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-28"
        width="0.26458356"
        height="0.26458299"
        x="-2.3812494"
        y="2.9104166" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-37"
        width="0.26458356"
        height="0.26458299"
        x="-2.6458328"
        y="3.175" />
     <rect
-       style="display:inline;fill:#f9eac7;fill-opacity:0.89999998;stroke-width:0.26458332"
+       style="display:inline;fill:#f9eac7;fill-opacity:0.9;stroke-width:0.26458332"
        id="rect10854-54-8-23-91-62"
        width="0.26458356"
        height="0.26458299"
@@ -2283,30 +2292,31 @@
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="sprinkle1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(5.2916665,1.3229166)">
     <rect
-       style="fill:#a9daf3;fill-opacity:0.67058825;stroke-width:0.26458332"
+       style="fill:#a9daf3;fill-opacity:0.67058824;stroke-width:0.26458332"
        id="rect11345"
        width="0.26458332"
        height="0.26458332"
        x="-3.96875"
        y="0.79374999" />
     <rect
-       style="fill:#a9daf3;fill-opacity:0.67058825;stroke-width:0.26458332"
+       style="fill:#a9daf3;fill-opacity:0.67058824;stroke-width:0.26458332"
        id="rect11345-9"
        width="0.26458332"
        height="0.26458332"
        x="-3.96875"
        y="1.8520833" />
     <rect
-       style="fill:#a9daf3;fill-opacity:0.67058825;stroke-width:0.26458332"
+       style="fill:#a9daf3;fill-opacity:0.67058824;stroke-width:0.26458332"
        id="rect11345-6"
        width="0.26458332"
        height="0.26458332"
        x="-2.9104166"
        y="1.8520833" />
     <rect
-       style="fill:#a9d9f3;fill-opacity:0.67032969;stroke-width:0.26458332"
+       style="fill:#a9d9f3;fill-opacity:0.67032967;stroke-width:0.26458332"
        id="rect11345-7"
        width="0.26458332"
        height="0.26458332"
@@ -2327,7 +2337,7 @@
        x="-3.96875"
        y="0.26458335" />
     <rect
-       style="fill:#a9daf3;fill-opacity:0.67058825;stroke-width:0.26458332"
+       style="fill:#a9daf3;fill-opacity:0.67058824;stroke-width:0.26458332"
        id="rect11345-3"
        width="0.26458332"
        height="0.26458332"
@@ -2338,23 +2348,24 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="sprinkle2"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(5.2916665,1.3229166)">
     <rect
-       style="fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392"
        width="0.26458332"
        height="0.26458323"
        x="-4.2333331"
        y="1.3229164" />
     <rect
-       style="fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392-1"
        width="0.26458332"
        height="0.26458323"
        x="-4.4979162"
        y="1.8520831" />
     <rect
-       style="fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392-5"
        width="0.26458332"
        height="0.26458323"
@@ -2368,28 +2379,28 @@
        x="-2.1166663"
        y="1.8520831" />
     <rect
-       style="fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392-4"
        width="0.26458332"
        height="0.26458323"
        x="-2.3812497"
        y="0.79374975" />
     <rect
-       style="fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392-51"
        width="0.26458332"
        height="0.26458323"
        x="-1.8520831"
        y="1.058333" />
     <rect
-       style="fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392-2"
        width="0.26458332"
        height="0.26458323"
        x="-3.7041664"
        y="0.5291664" />
     <rect
-       style="display:inline;fill:#f0aadd;fill-opacity:0.87450981;stroke-width:0.26458332"
+       style="display:inline;fill:#f0aadd;fill-opacity:0.8745098;stroke-width:0.26458332"
        id="rect11392-51-2"
        width="0.26458332"
        height="0.26458323"
@@ -2400,7 +2411,8 @@
      inkscape:groupmode="layer"
      id="layer18"
      inkscape:label="Layer 1"
-     style="display:none">
+     style="display:none"
+     transform="translate(5.2916665,1.3229166)">
     <image
        y="-0.26458335"
        x="-1.300944"
