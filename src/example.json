@@ -16,6 +16,15 @@
 				"href": "https://misscoldcomfort.ca",
 				"logoSrc": "https://misscolcomfort.ca/logo.png"
 			}
+		},
+		{
+			"baseColor": "#ffe512",
+			"sprinkleColors": [],
+			"name": "Chocolate Rain",
+			"business": {
+				"href": "https://misscoldcomfort.ca",
+				"logoSrc": "https://misscolcomfort.ca/logo.png"
+			}
 		}
 	]
 }
