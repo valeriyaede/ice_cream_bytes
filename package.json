@@ -1,0 +1,22 @@
+{
+  "name": "ice-cream-bytes",
+  "version": "1.0.0",
+  "description": "Display of pixel art ice cream flavours.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruvio/ice_cream_bytes.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dhruvio/ice_cream_bytes/issues"
+  },
+  "homepage": "https://github.com/dhruvio/ice_cream_bytes#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6"
+  }
+}
