@@ -2,7 +2,14 @@
 	"site": {
 		"logoSrc": "/img/logo.svg",
 		"logoAlt": "Ice Cream Bytes!",
-		"description": "Your favourite ice cream bytes!"
+		"description": "Your favourite ice cream bytes!",
+		"social": [
+			{
+				"iconSrc": "/img/icon/insta_pixels.plain.svg",
+				"href": "http://www.instagram.com/valerrrriya",
+				"iconAlt": "Instagram"
+			}
+		]
 	},
 	"flavors": [
 		{
@@ -25,6 +32,9 @@
 				"href": "https://misscoldcomfort.ca",
 				"logoSrc": "https://misscolcomfort.ca/logo.png"
 			}
+		},
+		{
+			"name": "Rainbow Birthday Cake"
 		}
 	]
 }

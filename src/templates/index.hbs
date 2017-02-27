@@ -5,12 +5,25 @@
     <title>Ice Cream Bytes</title>
   </head>
   <body>
-    <nav></nav>
-    <section>
+    <nav>
+      <img src="{{site.logoSrc}}" alt="{{site.logoAlt}}">
+      <p>{{site.description}}</p>
+      <ul id="social">
+        {{#each site.social}}
+          <li>
+            <a href="{{href}}" target="_blank">
+              <img src="{{iconSrc}}" alt="{{iconAlt}}">
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+    </nav>
+    <ul id="gallery">
       {{#each flavors}}
-        {!-- {> flavor flavor=this --}}
-        {{name}}
+        <li>
+          <h2>{{name}}</h2>
+        </li>
       {{/each}}
-    </section>
+    </ul>
   </body>
 </html>
