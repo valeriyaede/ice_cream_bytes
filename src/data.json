@@ -32,9 +32,12 @@
 			}
 		},
 		{
-			"baseColor": "#ffe512",
-			"sprinkleColors": [],
-			"name": "Chai Spice",
+			"baseColor": "#c1d29f",
+			"sprinkleColors": [
+				"#c6a8b8",
+				"#e3d9bd"
+			],
+			"name": "Zombie Brains",
 			"business": {
 				"href": "http://www.coldcomfort.ca/",
 				"logoSrc": "",
