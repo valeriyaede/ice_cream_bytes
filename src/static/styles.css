@@ -1,5 +1,10 @@
 /********************GENERAL
 ********************/
+
+* {
+  box-sizing: border-box;
+}
+
 @font-face { font-family: pixel; src: url('dotty.ttf'); }
 
 p {
@@ -25,13 +30,10 @@ h1 {
 #logo {
   text-align: left;
   margin: 0;
-  height: 88px;
-  width: 171px;
-  max-width: 100%;
-  max-height: 100%;
+  width: 80%;
 }
 
-h1 {
+h3 {
   margin: 20px 0;
   font-size: 15px;
   font-weight: normal;
@@ -39,12 +41,16 @@ h1 {
   max-width: 171px;
 }
 
+#social img {
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+}
+
 #sidebar {
-  flex-basis: 200px;
-  flex-grow: 0;
-  flex-shrink: 0;
+  width: 200px;
   background-color: #ffffff;
-  padding: 40px 60px;
+  padding-top: 40px;
   position: fixed;
 }
 
@@ -98,6 +104,22 @@ h1 {
   max-width: 126px;
   margin: 0;
   padding: 0;
+}
+
+#gallery .flavor {
+  position: relative;
+}
+
+#gallery .flavor,
+#gallery .flavor svg {
+  width: calc(170px * 0.7);
+  height: calc(240px * 0.7);
+}
+
+#gallery .flavor svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
