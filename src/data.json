@@ -1,13 +1,19 @@
 {
 	"site": {
-		"logoSrc": "/img/logo.svg",
+		"logoSrc": "img/logov2.png",
 		"logoAlt": "Ice Cream Bytes!",
-		"description": "Your favourite ice cream bytes!",
+		"description": "Welcome to Ice Cream Bytes.Your guide to local #yyj ice cream flavours!",
+		"copyright": "&copy; 2017 valeriya edemskaya",
 		"social": [
 			{
-				"iconSrc": "/img/icon/insta_pixels.plain.svg",
+				"iconSrc": "img/insta_pixels.png",
 				"href": "http://www.instagram.com/valerrrriya",
 				"iconAlt": "Instagram"
+			},
+			{
+				"iconSrc": "img/mail_pixels 3.png",
+				"href": "mailto:valeriya@live.ca",
+				"iconAlt": "Send an email"
 			}
 		]
 	},
@@ -18,23 +24,42 @@
 				"#ffffff",
 				"#ffffff"
 			],
-			"name": "Vanilla Dream",
+			"name": "Apple Pie and Aged White Cheddar",
 			"business": {
-				"href": "https://misscoldcomfort.ca",
-				"logoSrc": "https://misscolcomfort.ca/logo.png"
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
 			}
 		},
 		{
 			"baseColor": "#ffe512",
 			"sprinkleColors": [],
-			"name": "Chocolate Rain",
+			"name": "Chai Spice",
 			"business": {
-				"href": "https://misscoldcomfort.ca",
-				"logoSrc": "https://misscolcomfort.ca/logo.png"
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
 			}
 		},
 		{
-			"name": "Rainbow Birthday Cake"
+			"baseColor": "#ffe512",
+			"sprinkleColors": [],
+			"name": "Cinnamon Brioche",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+			{
+				"baseColor": "#ffe512",
+				"sprinkleColors": [],
+				"name": "Chocolate and Cheese",
+				"business": {
+					"href": "http://www.coldcomfort.ca/",
+					"logoSrc": "",
+					"name": "Cold Comfort"
+			}
 		}
 	]
 }
