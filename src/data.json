@@ -1,8 +1,8 @@
 {
 	"site": {
-		"logoSrc": "img/logov2.png",
+		"logoSrc": "img/logo_text.plain.svg",
 		"logoAlt": "Ice Cream Bytes!",
-		"description": "Welcome to Ice Cream Bytes. Your guide to local #yyj ice cream flavours!",
+		"description": "A curated list of ice cream flavours from Victoria, BC.",
 		"copyright": "&copy; 2017 valeriya edemskaya",
 		"social": [
 			{
