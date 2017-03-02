@@ -2,29 +2,53 @@
 	"site": {
 		"logoSrc": "img/logo_text.plain.svg",
 		"logoAlt": "Ice Cream Bytes!",
-		"description": "A curated list of ice cream flavours from Victoria, BC.",
+		"description": "A curated list of ice cream flavours.",
 		"copyright": "&copy; 2017 valeriya edemskaya",
-		"social": [
-			{
-				"iconSrc": "img/insta_pixels.png",
-				"href": "http://www.instagram.com/valerrrriya",
-				"iconAlt": "Instagram"
-			},
-			{
-				"iconSrc": "img/mail_pixels 3.png",
-				"href": "mailto:valeriya@live.ca",
-				"iconAlt": "Send an email"
-			}
-		]
+		"madeBy": {
+			"heartSrc":"img/heart.png",
+			"heartAlt": "Heart",
+			"authors": [
+				{
+					"name": "Valeriya Edemskaya",
+					"social": [
+						{
+							"iconSrc": "img/insta_pixels.png",
+							"href": "http://www.instagram.com/valerrrriya",
+							"iconAlt": "Instagram"
+						},
+						{
+							"iconSrc": "img/mail_pixels 3.png",
+							"href": "mailto:valeriya@live.ca",
+							"iconAlt": "Send an email"
+						}
+					]
+				},
+				{
+					"name": "Dhruv Dang",
+					"social": [
+						{
+							"iconSrc": "img/insta_pixels.png",
+							"href": "http://www.instagram.com/dhruvio",
+							"iconAlt": "Instagram"
+						},
+						{
+							"iconSrc": "img/mail_pixels 3.png",
+							"href": "mailto:hi@dhruv.io",
+							"iconAlt": "Send an email"
+						}
+					]
+				}
+			]
+		}
 	},
 	"flavors": [
 		{
-			"baseColor": "#ffe512",
+			"baseColor": "#f6e7f5",
 			"sprinkleColors": [
-				"#ffffff",
-				"#445eaf"
+				"#ffd3e0",
+				"#d1e8ee"
 			],
-			"name": "Apple Pie and Aged White Cheddar",
+			"name": "Unicorn Dust",
 			"business": {
 				"href": "http://www.coldcomfort.ca/",
 				"logoSrc": "",
@@ -32,12 +56,12 @@
 			}
 		},
 		{
-			"baseColor": "#c1d29f",
+			"baseColor": "#deffee",
 			"sprinkleColors": [
-				"#c6a8b8",
-				"#e3d9bd"
+				"#dbe4ff",
+				"#f0dbff"
 			],
-			"name": "Zombie Brains",
+			"name": "Cool Mint",
 			"business": {
 				"href": "http://www.coldcomfort.ca/",
 				"logoSrc": "",
@@ -45,9 +69,12 @@
 			}
 		},
 		{
-			"baseColor": "#ffe512",
-			"sprinkleColors": [],
-			"name": "Cinnamon Brioche",
+			"baseColor": "#faf5de",
+			"sprinkleColors": [
+				"#f0abdd",
+				"#a9daf3"
+			],
+			"name": "Birthday Cream",
 			"business": {
 				"href": "http://www.coldcomfort.ca/",
 				"logoSrc": "",
@@ -55,9 +82,194 @@
 			}
 		},
 		{
-			"baseColor": "#ffe512",
-			"sprinkleColors": [],
-			"name": "Chocolate and Cheese",
+			"baseColor": "#fbe3e9",
+			"sprinkleColors": [
+				"#8cc8dd",
+				"#afe0f9"
+			],
+			"name": "Cotton Candy Sky",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#dbe4ff",
+			"sprinkleColors": [
+				"#ebdaf7",
+				"#ffebf3"
+			],
+			"name": "Cloudy with a Chance of Berries",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#e4d1ff",
+			"sprinkleColors": [
+				"#d8f0e3",
+				"#ebdaf7"
+			],
+			"name": "Lavender Field",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#e8fcff",
+			"sprinkleColors": [
+				"#c2f8ff",
+				"#d1ffe8"
+			],
+			"name": "Birthday Blueberry",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#ebdaf7",
+			"sprinkleColors": [
+				"#d3f0f2",
+				"#d8f0e3"
+			],
+			"name": "Blackberry Butter",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#ffe8ef",
+			"sprinkleColors": [
+				"#ffe8fc",
+				"#f2d8cb"
+			],
+			"name": "Rose",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#f5f0eb",
+			"sprinkleColors": [
+				"#f5e3d7",
+				"#f2c9c2"
+			],
+			"name": "Basic Beige",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#f6e8ff",
+			"sprinkleColors": [
+				"#ffe8fc",
+				"#efd3f2"
+			],
+			"name": "Marshmallow Cream",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#f7c6f7",
+			"sprinkleColors": [
+				"#f0d8f0",
+				"#d9b1e3"
+			],
+			"name": "Bubblegum Pop",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#dde5fe",
+			"sprinkleColors": [
+				"#d9b2ff",
+				"#ffe1fd"
+			],
+			"name": "Easter Egg Hunt",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#ffd3e0",
+			"sprinkleColors": [
+				"#f6e7f5",
+				"#d1e8ee"
+			],
+			"name": "Pink Lemonade",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#dfffe3",
+			"sprinkleColors": [
+				"#d0e6e3",
+				"#dbe7db"
+			],
+			"name": "Green Tea Ritual",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#fefec8",
+			"sprinkleColors": [
+				"#ffd1dc",
+				"#ffd1f3"
+			],
+			"name": "Lemon Fairy Floss",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#cbe4eb",
+			"sprinkleColors": [
+				"#a4d2df",
+				"#f1f1f1"
+			],
+			"name": "Blueberry Macaroon",
+			"business": {
+				"href": "http://www.coldcomfort.ca/",
+				"logoSrc": "",
+				"name": "Cold Comfort"
+			}
+		},
+		{
+			"baseColor": "#f6d9d5",
+			"sprinkleColors": [
+				"#f7d0cb",
+				"#f7d0cb"
+			],
+			"name": "Rose Gold",
 			"business": {
 				"href": "http://www.coldcomfort.ca/",
 				"logoSrc": "",

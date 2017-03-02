@@ -1,5 +1,8 @@
-/********************GENERAL
-********************/
+/* font definitions */
+
+@font-face { font-family: pixel; src: url('dotty.ttf'); }
+
+/* base */
 
 * {
   box-sizing: border-box;
@@ -11,16 +14,15 @@ html {
 }
 
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: pixel, monospace;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.2;
   color: #423f43;
   background: linear-gradient(to top, #f6f0e0, #fefcf9, #fefcf9);
   background-attachment: fixed;
+  text-transform: uppercase;
 }
-
-@font-face { font-family: pixel; src: url('dotty.ttf'); }
 
 a {
   text-decoration: none;
@@ -29,11 +31,17 @@ a {
 img {
   max-width: 100%;
 }
-/***
-h1 {
-  margin: 0 0 1em 0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
-***/
+
+/* layout */
 
 #main {
   margin: 0 auto;
@@ -46,8 +54,7 @@ h1 {
   padding: 40px;
 }
 
-/********************sidebar
-********************/
+/* sidebar */
 
 #sidebar {
   width: 190px;
@@ -65,24 +72,51 @@ h1 {
   width: 150px;
 }
 
-h3 {
-  margin: 20px 0;
-  max-width: 171px;
+#sidebar h3 {
   text-align: left;
-  font-weight: 300;
   font-size: 1.6rem;
-  font-family: pixel, monospace;
-  text-transform: uppercase;
   line-height: 0.8;
 }
 
-#social img {
-  height: 40px;
-  width: 40px;
+#sidebar > h3 {
+  margin-top: 1rem;
+  max-width: 171px;
 }
 
-/********************GALLERY
-********************/
+#made-by {
+  margin-top: 2rem;
+  color: #726f73;
+}
+
+#made-by h3 img {
+  height: 1rem;
+  position: relative;
+  top: 2px;
+  margin-right: 1px;
+}
+
+#made-by .author {
+  margin-top: 0.6rem;
+}
+
+#made-by .author h4 {
+  font-size: 1.25rem;
+}
+
+#made-by .author .social {
+  margin-top: 0.2rem;
+}
+
+#made-by .author .social img {
+  height: 30px;
+  width: 30px;
+}
+
+#made-by .author .social a:not(:last-child) {
+  margin-right: 0.25rem;
+}
+
+/* gallery */
 
 #gallery {
   flex-basis: 600px;
@@ -134,9 +168,7 @@ h3 {
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  font-family: pixel, monospace;
   font-size: 1.35rem;
-  text-transform: uppercase;
   opacity: 0;
   text-align: center;
   padding: 0 12px;
@@ -151,36 +183,3 @@ h3 {
 #gallery article:hover .name {
   opacity: 1;
 }
-
-
-/********************FOOTER
-********************/
-
-
-
-/********************COLORS
-********************/
-
-/* site body */
-
-/************
-
-body {
-  background-color: #ffffff;
-  color: #999;
-}
-
-header {
-  background: #ffffff;
-  border-color: none;
-}
-
-h1 {
-    color: #8EC0E4;
-  }
-
-a {
-  color: #8EC0E4;
-}
-
-*******/
