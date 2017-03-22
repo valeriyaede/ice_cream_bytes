@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 
-// var PARTIALS_DIR = "./src/templates/partials";
-var MAIN_TEMPLATE = "./src/templates/index.hbs";
-var OUTPUT_FILE = "./build/index.html";
-var DATA_FILE = "./src/data.json";
+// var PARTIALS_DIR = "../src/templates/partials";
+var MAIN_TEMPLATE = "../src/templates/index.hbs";
+var OUTPUT_FILE = "../build/index.html";
+var DATA_FILE = "../src/data.json";
 
 Object.prototype.toString = function () {
   return JSON.stringify(this);

@@ -2,5 +2,5 @@
 
 mkdir -p build
 rm -rf build/*
-node build.js
+node tasks/build_js.js
 cp -r src/static/* build
