@@ -1,6 +1,7 @@
 {
 	"site": {
 		"logoSrc": "img/logo_text.plain.svg",
+		"mobileLogoSrc": "img/logo_text.plain.svg",
 		"logoAlt": "Ice Cream Bytes!",
 		"description": "A curated list of ice cream flavours.",
 		"copyright": "&copy; 2017 valeriya edemskaya",
