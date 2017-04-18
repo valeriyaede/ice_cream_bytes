@@ -1,4 +1,4 @@
 #! /usr/bin/env bash
 
-./build.sh
+./tasks/build.sh
 surge -p build -d icecreambytes.surge.sh
