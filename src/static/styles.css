@@ -190,15 +190,15 @@ h6 {
   line-height: 0.8;
 }
 
-#gallery article:hover .flavor {
+#gallery article.hover .flavor {
   opacity: 0.48;
 }
 
-#gallery article:hover .name {
+#gallery article.hover .name {
   opacity: 1;
 }
 
-#gallery article:active {
+#gallery article.active {
   animation: click-ice-cream;
   animation-duration: 300ms;
   animation-timing-function: ease-in-out;
