@@ -150,6 +150,7 @@ h6 {
 #gallery article {
   margin: 0 40px 40px 0;
   position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #gallery article img {
@@ -268,7 +269,7 @@ h6 {
   }
 
   #gallery article:hover .name {
-    
+
   }
 
 }
