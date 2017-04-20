@@ -8,10 +8,10 @@
   var iceCreams = $(ICE_CREAM_SELECTOR);
 
   // handle the hover state
-  iceCreams.on("mouseenter", function () {
+  iceCreams.on("touchstart", function () {
     $(this).toggleClass(HOVER_CLASS, true);
   });
-  iceCreams.on("mouseleave", function () {
+  iceCreams.on("touchend", function () {
     $(this).toggleClass(HOVER_CLASS, false);
     $(this).toggleClass(ACTIVE_CLASS, false);
   });
