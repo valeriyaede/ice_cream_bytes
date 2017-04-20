@@ -31,13 +31,16 @@
       $element.toggleClass(ACTIVE_CLASS, true);
     });
     iceCreams.on("touchend", function () {
-      // clear timeout for persisting hover state
-      if (timeout) clearTimeout(timeout);
-      timeout = undefined;
-      // affect the DOM
+      // scope
       var element = this;
       var $element = $(element);
-      $element.toggleClass(HOVER_CLASS, false);
+      // clear timeout for persisting hover state
+      if (timeout) {
+        clearTimeout(timeout);
+        timeout = undefined;
+        $element.toggleClass(HOVER_CLASS, false);
+      }
+      // affect the DOM
       $element.toggleClass(ACTIVE_CLASS, false);
     });
   } else {
