@@ -4,6 +4,7 @@
   var ICE_CREAM_SELECTOR = "#gallery article";
   var HOVER_CLASS = "hover";
   var ACTIVE_CLASS = "active";
+  var HOVER_PERSIST_TIMEOUT = 1000;
 
   var iceCreams = $(ICE_CREAM_SELECTOR);
 
@@ -18,13 +19,16 @@
       // handle the active element
       if (activeElement == element) {
         return;
-      } else if (activeElement) {
-        $(activeElement).toggleClass(HOVER_CLASS, false);
+      } else {
+        // remove hover state from active element
+        if (activeElement) {
+          $(activeElement).toggleClass(HOVER_CLASS, false);
+        }
         // start timeout to set active element
         timeout = setTimeout(function () {
           activeElement = element;
           timeout = undefined;
-        }, 500);
+        }, HOVER_PERSIST_TIMEOUT);
       }
       // handle the hover and active states
       $element.toggleClass(HOVER_CLASS, true);
