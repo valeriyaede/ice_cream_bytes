@@ -8,14 +8,37 @@
   var iceCreams = $(ICE_CREAM_SELECTOR);
 
   if (Modernizr.touch == true) {
+    // set up scope
+    var timeout, activeElement;
     // handle events for mobile devices
     iceCreams.on("touchstart", function () {
-      $(this).toggleClass(HOVER_CLASS, true);
-      $(this).toggleClass(ACTIVE_CLASS, true);
+      // scope
+      var element = this;
+      var $element = $(element);
+      // handle the active element
+      if (activeElement == element) {
+        return;
+      } else if (activeElement) {
+        $(activeElement).toggleClass(HOVER_CLASS, false);
+        // start timeout to set active element
+        timeout = setTimeout(function () {
+          activeElement = element;
+          timeout = undefined;
+        }, 500);
+      }
+      // handle the hover and active states
+      $element.toggleClass(HOVER_CLASS, true);
+      $element.toggleClass(ACTIVE_CLASS, true);
     });
     iceCreams.on("touchend", function () {
-      $(this).toggleClass(HOVER_CLASS, false);
-      $(this).toggleClass(ACTIVE_CLASS, false);
+      // clear timeout for persisting hover state
+      if (timeout) clearTimeout(timeout);
+      timeout = undefined;
+      // affect the DOM
+      var element = this;
+      var $element = $(element);
+      $element.toggleClass(HOVER_CLASS, false);
+      $element.toggleClass(ACTIVE_CLASS, false);
     });
   } else {
     // handle events for non-touch devices (presumably with a mouse)
